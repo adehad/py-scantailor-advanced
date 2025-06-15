@@ -189,7 +189,7 @@ QToolButton:pressed {
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../resources/resources.qrc">
+          <iconset resource="../../resources/resources.qrc">
            <normaloff>:/icons/eye.svg</normaloff>:/icons/eye.svg</iconset>
          </property>
          <property name="iconSize">
@@ -262,7 +262,7 @@ QToolButton:pressed {
           <string notr="true"/>
          </property>
          <property name="icon">
-          <iconset resource="../resources/resources.qrc">
+          <iconset resource="../../resources/resources.qrc">
            <normaloff>:/icons/triangle-up-arrow.svg</normaloff>:/icons/triangle-up-arrow.svg</iconset>
          </property>
          <property name="iconSize">
@@ -319,7 +319,7 @@ QToolButton:pressed {
           <string notr="true"/>
          </property>
          <property name="icon">
-          <iconset resource="../resources/resources.qrc">
+          <iconset resource="../../resources/resources.qrc">
            <normaloff>:/icons/triangle-down-arrow.svg</normaloff>:/icons/triangle-down-arrow.svg</iconset>
          </property>
          <property name="iconSize">
@@ -376,7 +376,7 @@ QToolButton:pressed {
           <string notr="true"/>
          </property>
          <property name="icon">
-          <iconset resource="../resources/resources.qrc">
+          <iconset resource="../../resources/resources.qrc">
            <normaloff>:/icons/check-mark.svg</normaloff>:/icons/check-mark.svg</iconset>
          </property>
          <property name="iconSize">
@@ -446,7 +446,7 @@ QToolButton:pressed {
           <string notr="true"/>
          </property>
          <property name="icon">
-          <iconset resource="../resources/resources.qrc">
+          <iconset resource="../../resources/resources.qrc">
            <normaloff>:/icons/magnifying-glass.svg</normaloff>:/icons/magnifying-glass.svg</iconset>
          </property>
          <property name="iconSize">
@@ -503,7 +503,7 @@ QToolButton:pressed {
           <string notr="true"/>
          </property>
          <property name="icon">
-          <iconset resource="../resources/resources.qrc">
+          <iconset resource="../../resources/resources.qrc">
            <normaloff>:/icons/diminishing-glass.svg</normaloff>:/icons/diminishing-glass.svg</iconset>
          </property>
          <property name="iconSize">
@@ -570,7 +570,7 @@ QToolButton:pressed {
           <string notr="true"/>
          </property>
          <property name="icon">
-          <iconset resource="../resources/resources.qrc">
+          <iconset resource="../../resources/resources.qrc">
            <normaloff>:/icons/right-pointing.svg</normaloff>:/icons/right-pointing.svg</iconset>
          </property>
          <property name="iconSize">
@@ -639,7 +639,7 @@ QToolButton:checked {
           <string notr="true"/>
          </property>
          <property name="icon">
-          <iconset resource="../resources/resources.qrc">
+          <iconset resource="../../resources/resources.qrc">
            <normaloff>:/icons/checkbox-styled.svg</normaloff>:/icons/checkbox-styled.svg</iconset>
          </property>
          <property name="iconSize">
@@ -699,7 +699,7 @@ QToolButton:pressed {
           <string notr="true"/>
          </property>
          <property name="icon">
-          <iconset resource="../resources/resources.qrc">
+          <iconset resource="../../resources/resources.qrc">
            <normaloff>:/icons/single-column-view.svg</normaloff>:/icons/single-column-view.svg</iconset>
          </property>
          <property name="iconSize">
@@ -759,7 +759,7 @@ QToolButton:pressed {
           <string notr="true"/>
          </property>
          <property name="icon">
-          <iconset resource="../resources/resources.qrc">
+          <iconset resource="../../resources/resources.qrc">
            <normaloff>:/icons/ascending_sorting_order.svg</normaloff>:/icons/ascending_sorting_order.svg</iconset>
          </property>
          <property name="iconSize">
@@ -819,7 +819,7 @@ QToolButton:pressed {
           <string notr="true"/>
          </property>
          <property name="icon">
-          <iconset resource="../resources/resources.qrc">
+          <iconset resource="../../resources/resources.qrc">
            <normaloff>:/icons/six-spoked-asterisk.svg</normaloff>:/icons/six-spoked-asterisk.svg</iconset>
          </property>
          <property name="iconSize">
@@ -884,7 +884,7 @@ QToolButton:pressed {
        <item>
         <widget class="QComboBox" name="sortOptions">
          <property name="sizeAdjustPolicy">
-          <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+          <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
          </property>
         </widget>
        </item>
@@ -1477,7 +1477,7 @@ QToolButton:pressed {
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../resources/resources.qrc"/>
+  <include location="../../resources/resources.qrc"/>
  </resources>
  <connections/>
 </ui>
